@@ -12,6 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
+                sh 'npm build'
             }
         }
         stage('Test') {
@@ -21,8 +22,6 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'npm build'
-                sh 'git checkout gh-pages'
                 sh 'git add build'
                 sh 'git push origin gh-pages'
             }
