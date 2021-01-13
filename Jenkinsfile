@@ -11,13 +11,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh 'git config user.email'
                 sh 'npm install'
             }
         }
         stage('Test') {
             steps {
                 sh 'npm test'
-                sh 'git config user.email'
             }
         }
     }
