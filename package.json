@@ -1,17 +1,21 @@
 {
-  "name": "my-app",
+  "name": "simple-node-js-react-npm-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dhruvinoptyfi.github.io/simple-node-js-react-npm-app",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
