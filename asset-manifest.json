@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/simple-node-js-react-npm-app/static/css/main.4bf56663.chunk.css",
+    "main.js": "/simple-node-js-react-npm-app/static/js/main.dae316a4.chunk.js",
+    "main.js.map": "/simple-node-js-react-npm-app/static/js/main.dae316a4.chunk.js.map",
+    "runtime-main.js": "/simple-node-js-react-npm-app/static/js/runtime-main.b46a5e76.js",
+    "runtime-main.js.map": "/simple-node-js-react-npm-app/static/js/runtime-main.b46a5e76.js.map",
+    "static/js/2.117eaf8d.chunk.js": "/simple-node-js-react-npm-app/static/js/2.117eaf8d.chunk.js",
+    "static/js/2.117eaf8d.chunk.js.map": "/simple-node-js-react-npm-app/static/js/2.117eaf8d.chunk.js.map",
+    "index.html": "/simple-node-js-react-npm-app/index.html",
+    "precache-manifest.29ff6dc863ea7ec1a5ccb99c37f76782.js": "/simple-node-js-react-npm-app/precache-manifest.29ff6dc863ea7ec1a5ccb99c37f76782.js",
+    "service-worker.js": "/simple-node-js-react-npm-app/service-worker.js",
+    "static/css/main.4bf56663.chunk.css.map": "/simple-node-js-react-npm-app/static/css/main.4bf56663.chunk.css.map",
+    "static/js/2.117eaf8d.chunk.js.LICENSE.txt": "/simple-node-js-react-npm-app/static/js/2.117eaf8d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/simple-node-js-react-npm-app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b46a5e76.js",
+    "static/js/2.117eaf8d.chunk.js",
+    "static/css/main.4bf56663.chunk.css",
+    "static/js/main.dae316a4.chunk.js"
+  ]
+}
