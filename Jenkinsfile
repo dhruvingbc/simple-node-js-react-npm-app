@@ -11,13 +11,20 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'git config user.email'
                 sh 'npm install'
             }
         }
         stage('Test') {
             steps {
                 sh 'npm test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'npm build'
+                sh 'git checkout gh-pages'
+                sh 'git add build'
+                sh 'git push origin gh-pages'
             }
         }
     }
