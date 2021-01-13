@@ -22,8 +22,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'git add build'
-                sh 'git push origin gh-pages'
+                sh 'ls -al'
             }
         }
     }
