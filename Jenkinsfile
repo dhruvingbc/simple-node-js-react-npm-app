@@ -17,6 +17,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'npm test'
+                sh 'git config user.email'
             }
         }
     }
