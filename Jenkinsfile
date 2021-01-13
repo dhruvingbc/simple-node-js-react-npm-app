@@ -12,7 +12,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                sh 'npm build'
             }
         }
         stage('Test') {
@@ -22,6 +21,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                sh 'npm build'
                 sh 'ls -al'
             }
         }
