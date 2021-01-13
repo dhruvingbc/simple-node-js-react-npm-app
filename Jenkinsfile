@@ -11,18 +11,18 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm run install'
-                sh 'npm run build'
+                sh 'npm install'
+                sh 'npm build'
             }
         }
         stage('Test') {
             steps {
-                sh 'npm run test'
+                sh 'npm test'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'npm run deploy'
+                sh 'npm deploy'
             }
         }
     }
